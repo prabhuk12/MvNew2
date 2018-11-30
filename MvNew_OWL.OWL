@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://semoss.org/ontologies/Relation/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdfs:Class rdf:about="http://semoss.org/ontologies/Concept"/>
+<rdf:Property rdf:about="http://semoss.org/ontologies/Relation"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MOVIE2_UNIQUE_ROW_ID/MOVIE2">
+	<rdfs:subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<rdfs:Class rdf:resource="TYPE:LONG"/>
+	<Conceptual rdf:resource="http://semoss.org/ontologies/Concept/MOVIE2"/>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Comments/MOVIE2"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MOVIE2_UNIQUE_ROW_ID/MOVIE2">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Comments/MOVIE2">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Comments/MOVIE2"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Director/MOVIE2"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MOVIE2_UNIQUE_ROW_ID/MOVIE2">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Director/MOVIE2">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Director/MOVIE2"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Genre/MOVIE2"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MOVIE2_UNIQUE_ROW_ID/MOVIE2">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Genre/MOVIE2">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Genre/MOVIE2"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/MovieBudget/MOVIE2"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MOVIE2_UNIQUE_ROW_ID/MOVIE2">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/MovieBudget/MOVIE2">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/MovieBudget/MOVIE2"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Nominated/MOVIE2"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MOVIE2_UNIQUE_ROW_ID/MOVIE2">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Nominated/MOVIE2">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Nominated/MOVIE2"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/RevenueDomestic/MOVIE2"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MOVIE2_UNIQUE_ROW_ID/MOVIE2">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RevenueDomestic/MOVIE2">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/RevenueDomestic/MOVIE2"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/RevenueInternational/MOVIE2"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MOVIE2_UNIQUE_ROW_ID/MOVIE2">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RevenueInternational/MOVIE2">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/RevenueInternational/MOVIE2"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/RottenTomatoesAudience/MOVIE2"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MOVIE2_UNIQUE_ROW_ID/MOVIE2">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RottenTomatoesAudience/MOVIE2">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/RottenTomatoesAudience/MOVIE2"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/RottenTomatoesCritics/MOVIE2"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MOVIE2_UNIQUE_ROW_ID/MOVIE2">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RottenTomatoesCritics/MOVIE2">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/RottenTomatoesCritics/MOVIE2"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Studio/MOVIE2"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MOVIE2_UNIQUE_ROW_ID/MOVIE2">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Studio/MOVIE2">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Studio/MOVIE2"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Title/MOVIE2"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MOVIE2_UNIQUE_ROW_ID/MOVIE2">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Title/MOVIE2">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Title/MOVIE2"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MOVIE2/MOVIE2">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">441</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Comments/MOVIE2">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">6</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Director/MOVIE2">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">343</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Genre/MOVIE2">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">6</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MovieBudget/MOVIE2">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">114</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Nominated/MOVIE2">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/RevenueDomestic/MOVIE2">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">441</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/RevenueInternational/MOVIE2">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">367</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/RottenTomatoesAudience/MOVIE2">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">77</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/RottenTomatoesCritics/MOVIE2">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">94</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Studio/MOVIE2">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">40</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Title/MOVIE2">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">441</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TimeStamp">
+	<TIME xmlns="ENGINE:">2018:11:30 13:14:59</TIME>
+</rdf:Description>
+
+</rdf:RDF>
